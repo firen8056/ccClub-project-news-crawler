@@ -1,9 +1,3 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[1]:
-
-
 import googletrans
 import datetime
 import pandas as pd
@@ -48,10 +42,3 @@ df = pd.DataFrame(dict)
 
 # 輸出csv
 df.to_csv(r'C:\Users\User\Desktop\Result.csv', encoding = "utf_8_sig", mode = 'a', index = False)
-
-
-# In[ ]:
-
-
-
-
